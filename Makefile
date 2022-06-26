@@ -4,7 +4,7 @@ NAME_CLIENT = client
 
 CC	=	cc
 
-CFLAGS = 
+CFLAGS = -Wall -Wextra -Werror
 
 SRCS_SERVER = server.c
 
@@ -15,8 +15,6 @@ SRCS_CLINET = client.c
 OBJS_CLINET = client.o
 
 RM = rm -f
-
-AR = ar rcs
 
 FT_PRINTF_DIR = ft_printf
 FT_PRINTF = $(FT_PRINTF_DIR)/libftprintf.a
