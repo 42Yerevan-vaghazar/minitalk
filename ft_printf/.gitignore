@@ -1,0 +1,9 @@
+a.out
+*.o
+ft_printf_tester
+printfTester
+.vscode
+*.a
+.DS_Store
+printfTester
+libft
