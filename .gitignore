@@ -1,4 +1,5 @@
-push_swap_tester
+client
+server
 .DS_Store
 
 ## Mlx related
